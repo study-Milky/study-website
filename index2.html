@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<style>
+body {
+  background: #f3f3f3 url('img_tree.png');
+}
+
+    
+.hover-box {
+      width:500px;
+      height:500px;
+      background-color: lightgray;
+      transition: background-color 0.3s ease;
+    }
+
+    
+    .hover-box:hover {
+      background-color: black;
+    }
+  
+  
+    .hover-box:hover p {
+      color: white;
+    }
+  
+</style>
+
+<body>
+<h1>HTML Style Object</h1>
+<h2>The backgroundRepeat Property</h2>
+
+<button type="button" onclick="myFunction()">Set background image to no-repeat</button>
+
+<script>
+function myFunction() {
+  document.body.style.backgroundRepeat = "no-repeat";
+}
+</script>
+<div>
+  <div class="hover-box">
+    <p>Hover over me!</p>
+  </div>
+
+
+
+
+
+</div>
+
+</body>
+</html>
