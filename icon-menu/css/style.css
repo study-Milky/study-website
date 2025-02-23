@@ -1,0 +1,46 @@
+.vertical.icon-bar {
+  width: 90px;
+  background-color: #555;
+}
+
+.vertical.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
+}
+
+.vertical.icon-bar a:hover {
+  background-color: #000;
+}
+
+.vertical.icon-bar a.active {
+  background-color: #1204aa;
+}
+
+.horizontal.icon-bar {
+    width: 100%;
+    background-color: #555;
+    margin-top: 10px;
+    overflow: auto;
+}
+
+.horizontal.icon-bar a {
+    float: left;
+    text-align: center;
+    width: 20%;
+    padding: 12px 0;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 36px;
+}
+
+.horizontal.icon-bar a:hover {
+    background-color: #000;
+}
+
+.horizontal.icon-bar a.active{
+    background-color: #04aa6d;
+}
